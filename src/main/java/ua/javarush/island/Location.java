@@ -1,5 +1,6 @@
 package ua.javarush.island;
 
+import lombok.Getter;
 import ua.javarush.living_beings.LivingBeing;
 
 import java.util.ArrayList;
@@ -7,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+@Getter
 public class Location {
     private final int x;
     private final int y;
@@ -20,7 +22,8 @@ public class Location {
 
     public void addLivingBeing(LivingBeing livingBeing){
         livingBeings
-                .computeIfAbsent(livingBeing.getClass(), key -> new ArrayList<>()).add(livingBeing);
+                .computeIfAbsent(livingBeing.getClass(), key -> new ArrayList<>())
+                .add(livingBeing);
     }
 
     public void removeLivingBeing(LivingBeing livingBeing){
