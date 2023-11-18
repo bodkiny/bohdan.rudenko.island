@@ -1,5 +1,8 @@
 package ua.javarush.island;
 
+import lombok.Getter;
+
+@Getter
 public class Island {
     private final Location[][] locations;
 
