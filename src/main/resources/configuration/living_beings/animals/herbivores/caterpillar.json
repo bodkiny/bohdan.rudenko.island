@@ -1,0 +1,27 @@
+{
+  "icon": "\uD83D\uDC1B",
+  "name": "Caterpillar",
+  "initialWeight": 0.01,
+  "currentWeight": 0.01,
+  "maxPopulation": 1000,
+  "satingWeight": 0,
+  "maxTravelDistance": 0,
+  "preferredFood": {
+    "Bear": 0,
+    "Boa": 0,
+    "Boar": 0,
+    "Buffalo": 0,
+    "Caterpillar": 0,
+    "Deer": 0,
+    "Duck": 0,
+    "Eagle": 0,
+    "Fox": 0,
+    "Goat": 0,
+    "Horse": 0,
+    "Mouse": 0,
+    "Rabbit": 0,
+    "Sheep": 0,
+    "Wolf": 0,
+    "Grass": 100
+  }
+}

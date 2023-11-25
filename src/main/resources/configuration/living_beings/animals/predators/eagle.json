@@ -1,0 +1,26 @@
+{
+  "icon": "\uD83E\uDD85",
+  "name": "Eagle",
+  "initialWeight": 6,
+  "currentWeight": 6,
+  "maxPopulation": 20,
+  "satingWeight": 1,
+  "maxTravelDistance": 5,
+  "preferredFood": {
+    "Bear": 0,
+    "Boa": 0,
+    "Boar": 0,
+    "Buffalo": 0,
+    "Caterpillar": 0,
+    "Deer": 0,
+    "Duck": 80,
+    "Eagle": 0,
+    "Fox": 10,
+    "Goat": 0,
+    "Horse": 0,
+    "Mouse": 90,
+    "Rabbit": 90,
+    "Sheep": 0,
+    "Wolf": 0
+  }
+}
