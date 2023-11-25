@@ -1,5 +1,6 @@
-package ua.javarush.util;
+package ua.javarush.util.factories;
 
+import lombok.Getter;
 import ua.javarush.living_beings.LivingBeing;
 
 import java.lang.reflect.Field;
@@ -9,6 +10,7 @@ import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class LivingBeingFactory {
+    @Getter
     private static final Map<Class<? extends LivingBeing>, LivingBeing> livingBeings = new ConcurrentHashMap<>();
 
     public void addLivingBeing(LivingBeing livingBeing){
