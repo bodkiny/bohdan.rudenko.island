@@ -4,7 +4,7 @@ import lombok.Getter;
 import lombok.Setter;
 import ua.javarush.interfaces.Populating;
 import ua.javarush.island.Location;
-import ua.javarush.util.LivingBeingFactory;
+import ua.javarush.util.factories.LivingBeingFactory;
 
 import java.util.List;
 import java.util.Optional;
