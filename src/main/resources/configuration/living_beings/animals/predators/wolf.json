@@ -1,0 +1,26 @@
+{
+  "icon": "\uD83D\uDC3A",
+  "name": "Wolf",
+  "initialWeight": 50,
+  "currentWeight": 50,
+  "maxPopulation": 30,
+  "satingWeight": 8,
+  "maxTravelDistance": 3,
+  "preferredFood": {
+    "Bear": 0,
+    "Boa": 0,
+    "Boar": 15,
+    "Buffalo": 10,
+    "Caterpillar": 0,
+    "Deer": 15,
+    "Duck": 40,
+    "Eagle": 0,
+    "Fox": 0,
+    "Goat": 60,
+    "Horse": 10,
+    "Mouse": 80,
+    "Rabbit": 60,
+    "Sheep": 70,
+    "Wolf": 0
+  }
+}

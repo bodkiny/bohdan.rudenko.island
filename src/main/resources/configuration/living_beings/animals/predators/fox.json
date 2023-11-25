@@ -1,0 +1,26 @@
+{
+  "icon": "\uD83E\uDD8A",
+  "name": "Fox",
+  "initialWeight": 8,
+  "currentWeight": 8,
+  "maxPopulation": 30,
+  "satingWeight": 2,
+  "maxTravelDistance": 2,
+  "preferredFood": {
+    "Bear": 0,
+    "Boa": 0,
+    "Boar": 0,
+    "Buffalo": 0,
+    "Caterpillar": 40,
+    "Deer": 0,
+    "Duck": 60,
+    "Eagle": 0,
+    "Fox": 0,
+    "Goat": 0,
+    "Horse": 0,
+    "Mouse": 90,
+    "Rabbit": 70,
+    "Sheep": 0,
+    "Wolf": 0
+  }
+}
