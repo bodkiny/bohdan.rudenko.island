@@ -8,7 +8,7 @@ import ua.javarush.island.Direction;
 import ua.javarush.island.Island;
 import ua.javarush.island.Location;
 import ua.javarush.living_beings.LivingBeing;
-import ua.javarush.util.LivingBeingFactory;
+import ua.javarush.util.factories.LivingBeingFactory;
 
 import java.util.List;
 import java.util.Map;
